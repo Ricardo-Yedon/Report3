@@ -1,6 +1,7 @@
 Hi, for this assignment, I am investigating some of the interesting alternative ways to use find in terminal:
 
-##1-type: This option is used to search for files of a specific type. The available file types are f (regular file), d (directory), l (symbolic link), c (character device), and b (block device). Here are two examples of using the -type option:
+## 1-type:
+This option is used to search for files of a specific type. The available file types are f (regular file), d (directory), l (symbolic link), c (character device), and b (block device). Here are two examples of using the -type option:
 
 ```
 $ find ./technical -type d
@@ -21,7 +22,8 @@ This command searches for all directories in the ./technical directory and displ
 Source: [[[Linuxize](https://linuxize.com/post/how-to-use-find-command-to-search-for-files-in-linux/)
 ](https://linuxize.com/post/how-to-use-find-command-to-search-for-files-in-linux/)](https://linuxize.com/post/how-to-use-find-command-to-search-for-files-in-linux/)
 
-##2-iname: This option is used to search for files by name without case sensitivity. Here are two examples of using the -iname option:
+## 2-iname:
+This option is used to search for files by name without case sensitivity. Here are two examples of using the -iname option:
 
 ```
 $ find ./technical -iname "*LINUX*"
@@ -36,7 +38,8 @@ This command searches for all files in the ./technical directory that contain th
 
 Source: [The Linux Handbook](https://linuxhandbook.com/find-command-examples/)
 
-##3-size: This option is used to search for files of a specific size. The available size options are + (greater than), - (less than), and = (equal to). Here are two examples of using the -size option:
+## 3-size:
+This option is used to search for files of a specific size. The available size options are + (greater than), - (less than), and = (equal to). Here are two examples of using the -size option:
 
 ```
 $ find ./technical -size +1M
@@ -51,7 +54,8 @@ This command searches for all files in the ./technical directory that are larger
 
 Source: [TecMint](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
 
-##4-mtime: This option is used to search for files that were modified within a certain time frame. The available time frame options are + (more than), - (less than), and = (exact). Here are two examples of using the -mtime option:
+## 4-mtime:
+This option is used to search for files that were modified within a certain time frame. The available time frame options are + (more than), - (less than), and = (exact). Here are two examples of using the -mtime option:
 
 ```
 $ find ./technical -mtime =7
